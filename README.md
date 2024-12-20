@@ -33,14 +33,35 @@ Eksempel: `no.hv.yrkesmedisin.ait.allergener`
 {
     "valueset_id": "no.hv.yrkesmedisin.ait.allergener", 
     "terminology_id": "FEST", # (0..1) Brukes kun når alle termer er tatt fra samme standardiserte terminologi
-    [
+    "description": "Verdisett for allergener som brukes i allergen immunterapi (AIT).",
+    "values": [
         {
-            "term_name": "Allergen av bjørkepollen",
+            "preferred_term": "Bjørkepollen",
             "code_string": "ID_1C885F3D-FEC0-4B64-9C60-40B481CD3D66",
+            "description": "Allergen av bjørkepollen."
             "mappings": [
                 {
-                     "terminology_id": "SNOMED-CT",
-                     "code_string": "91616515"
+                    "match": ">",
+                    "target": {
+                        "terminology_id": "ATC",
+                        "code_string": "V01A A05",
+                        "preferred_term": "Trepollen"
+                    }
+                }
+            ]
+        },
+        {
+            "preferred_term": "Timotei",
+            "code_string": "ID_FFF49EEE-F590-4AF6-9425-A15CEF3B2506",
+            "description": "Allergen av timotei."
+            "mappings": [
+                {
+                    "match": ">",
+                    "target": {
+                        "terminology_id": "ATC",
+                        "code_string": "V01A A02",
+                        "preferred_term": "Gresspollen"
+                    }
                 }
             ]
         }

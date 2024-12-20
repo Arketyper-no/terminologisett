@@ -3,27 +3,27 @@
     "description": "Verdisett for enkel registrering av et individs tilknytning til arbeidslivet.",
     "values": [
         {
-            "term_name": "I arbeid",
+            "preferred_term": "I arbeid",
             "description": "Alle som har jobb og identifiserer seg med at deres hovedkategori er å være i arbeid (dvs. sannsynligvis ikke studenter med deltidsarbeid). Både fulltid og deltid.",
             "code_string": "1"
         },
         {
-            "term_name": "Ikke i arbeid",
+            "preferred_term": "Ikke i arbeid",
             "description": "Alle som ikke har et arbeidsforhold: hjemmeværende, permitterte, arbeidssøkende, uføretrygdet, under rehabilitering, under attføring eller arbeidsmarkedskurs o.l., samt avtjener verneplikt, siviltjeneste. De med et arbeidsforhold, men som er midlertidig sykemeldt ansees for å være i arbeid.",
             "code_string": "2"
         },
         {
-            "term_name": "Alderspensjonist",
+            "preferred_term": "Alderspensjonist",
             "description": "Ikke uførepensjon eller andre pensjonsformer annet enn aldersrelatert. AFP er inkludert.",
             "code_string": "3"
         },
         {
-            "term_name": "Under utdanning",
+            "preferred_term": "Under utdanning",
             "description": "Innrullert i et studieløp og identifiserer seg som hovedsakelig student/elev. Både fulltid og deltid.",
             "code_string": "4"
         },
         {
-            "term_name": "Ukjent",
+            "preferred_term": "Ukjent",
             "description": "Ukjent arbeidsstatus.",
             "code_string": "9"
         }
